@@ -22,7 +22,7 @@ class App extends Component{
     return(
       <div className="app">
         <div className="card">
-          <h1 className="heading">{this.state.advice}</h1>
+          <blockquote className="heading">{this.state.advice}</blockquote>
           <button className="button" onClick={this.fetchApiData}>
             <span>GIVE ME ADVICE</span>
           </button>
